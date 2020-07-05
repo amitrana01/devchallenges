@@ -28,14 +28,43 @@ h1 {
 
 .card {
   /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
   background: #deeaf6;
   border-radius: 4px;
-  width: 15rem;
-  height: 20rem;
+  width: 27rem;
+  height: 27rem;
   margin: 2rem;
   box-shadow: #f3f9ff -10px -10px 20px, #becbd8 10px 10px 20px;
 }
 
+.card:hover {
+  transform: scale(1.07);
+  transition: ease-out 500ms;
+}
+
 .btn {
   padding: 1rem 2rem;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  border: none;
+  background: #222831;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 95%;
+  /* box-shadow: #f3f9ff -10px -10px 20px, #becbd8 10px 10px 20px; */
+}
+
+.btn a {
+  color: #deeaf6;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  transition: ease 500ms;
+  background: #00adb5;
 }
