@@ -37,14 +37,15 @@ h1 {
   border-radius: 4px;
   width: 27rem;
   height: 27rem;
-  margin: 2rem;
-  box-shadow: #f3f9ff -10px -10px 20px, #becbd8 10px 10px 20px;
+  margin: 5rem;
+  background: #feffff;
+  box-shadow: 20px 20px 60px #d8d9d9, -20px -20px 60px #ffffff;
 }
 
-.card:hover {
-  transform: scale(1.07);
-  transition: ease-out 500ms;
-}
+/* .card:hover {
+  background: linear-gradient(145deg, #e5e6e6, #ffffff);
+  box-shadow: 20px 20px 60px #d8d9d9, -20px -20px 60px #ffffff;
+} */
 
 .btn {
   padding: 1rem 2rem;
@@ -67,4 +68,23 @@ h1 {
 .btn:hover {
   transition: ease 500ms;
   background: #00adb5;
+}
+
+/* Card-1 */
+.card-1 {
+  /* background-color: #fff; */
+  height: 20rem;
+  width: 20rem;
+  margin: 30rem;
+  /* border: 1px solid; */
+  text-align: center;
+  border-radius: 50px;
+  border-radius: 50px;
+  background: #feffff;
+  box-shadow: 20px 20px 60px #d8d9d9, -20px -20px 60px #ffffff;
+}
+
+.card-1:hover {
+  background: linear-gradient(145deg, #e5e6e6, #ffffff);
+  box-shadow: 20px 20px 60px #d8d9d9, -20px -20px 60px #ffffff;
 }
