@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 100px 0;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.who {
+  height: 150px;
+  width: 300px;
+
+  margin-left: 350px;
+  color: #333;
+}
+
+.who p {
+  text-align: left;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.team-photo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -150px;
+}
+
+.card {
+  margin-top: 180px;
+  margin-right: 100px;
+  display: flex;
+  height: 400px;
+  width: 300px;
+  flex-direction: column;
+  position: relative;
+}
+
+.card h3 {
+  margin-top: 15px;
+}
+
+small {
+  text-transform: uppercase;
+  position: absolute;
+  left: 310px;
+  text-orientation: mixed;
+  writing-mode: vertical-rl;
+}
+
+.down {
+  padding-top: 120px;
+}
+
+@media (max-width: 720px) {
+  body {
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+  }
+
+  .container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  header {
+    margin: 0;
+    display: flex;
+  }
+
+  .who {
+    margin: 40px 0 0;
+  }
+
+  .who p {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 1.5;
+  }
+
+  .team-photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -60px;
+    margin-right: 10px;
+  }
+
+  .card {
+    /* margin-top: 180px; */
+    /* margin-right: 100px; */
+    /* display: flex; */
+    height: 200px;
+    width: 150px;
+    margin: 0 0;
+    padding: 0;
+    margin-top: 80px;
+  }
+
+  .card h3 {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  small {
+    text-transform: uppercase;
+    position: absolute;
+    left: 150px;
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    font-size: 10px;
+  }
+
+  .mobile {
+    margin-top: 130px;
+  }
+}
